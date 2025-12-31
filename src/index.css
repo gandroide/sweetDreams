@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* 1. CONFIGURACIÓN DEL TEMA (Solo variables) */
+@theme {
+  /* Aquí solo van cosas como --font-family, --color-primary, etc. */
+  /* Si no tienes variables personalizadas aún, puedes dejar esto vacío o borrarlo */
+}
+
+/* 2. ESTILOS GLOBALES (Aquí va tu código) */
+@layer base {
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    /* Usa la clase de Tailwind o el código hex directo */
+    background-color: #020617; 
+  }
+}
