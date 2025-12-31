@@ -1,5 +1,8 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Aquí debajo puedes poner tus estilos personalizados si tenías alguno */
 /* 1. CONFIGURACIÓN DEL TEMA (Solo variables) */
 @theme {
   /* Aquí solo van cosas como --font-family, --color-primary, etc. */
