@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { X, Play, Pause, SkipBack, SkipForward, Volume2, Ear } from 'lucide-react';
 
 interface MediaItem {
