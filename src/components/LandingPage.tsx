@@ -33,7 +33,7 @@ const LandingPage = ({ onSelection }: LandingPageProps) => {
       // Temporizador de 3.1s para permitir que la animación de 3s termine suavemente
       const timer = setTimeout(() => {
         onSelection(pendingSelection);
-      }, 3100); 
+      }, 2100); 
       return () => clearTimeout(timer);
     }
   }, [pendingSelection, onSelection]);
